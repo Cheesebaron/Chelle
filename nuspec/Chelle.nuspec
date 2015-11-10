@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Chelle</id>
+    <version>0.0.1</version>
+    <title>Chelle</title>
+    <authors>Tomasz Cielecki</authors>
+    <owners>Tomasz Cielecki</owners>
+	<licenseUrl>https://github.com/Cheesebaron/Chelle/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Cheesebaron/Chelle</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Fluent API for common Intent on Android</description>
+	<iconUrl>http://i.imgur.com/V3983YY.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="..\Chelle\bin\Release\dk.ostebaronen.chelle.*" target="lib\MonoAndroid403" />
+    
+    <!-- src -->
+    <file src="..\Chelle\**\*.cs" target="src\Chelle" />
+  </files>
+</package>
